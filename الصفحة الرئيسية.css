@@ -1,0 +1,126 @@
+html {text-align:center;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+
+    font-style: normal;
+    font-size: 150%;
+ 
+   background-color: #EEEEEE;
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+  
+}
+nav{
+    background:#393E46;
+    height: 75px;
+    width: 100%;
+    transition: 1.5
+    ease
+
+}
+ label.logo{
+    color:#76EAD7;
+    font-size: 35px;
+    line-height: 75px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin-right: 25px;
+
+}
+nav ul li 
+{
+list-style: none;
+display: inline-block;
+padding: 10px;
+}
+nav ul li a 
+{
+    color:#76EAD7;
+    font-size: 19px;
+    padding: 9px 1px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+body{
+    font-family: serif;
+    
+}
+
+a:hover{
+    background: #000000;
+    transition: 1s;
+}
+.checkbtn
+{
+    font-size: 30px;
+    color:#fff;
+    float: right;
+    line-height: 75px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    transition: 0.5;
+
+}
+#check{
+    display: none;
+}
+
+img{
+   width:40%;
+   height:400%;
+   float: center;
+}
+h1{
+   font-size: 170%; 
+   margin: 1%;
+   color:rgb(20, 20, 105);
+}
+p{
+    margin: 1%;
+}
+
+h2{
+    text-align:right;
+    padding-right: 2%;
+}
+
+@media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav ul li a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav ul {
+      padding: 10px;
+    }
+  
+    .nav ul li a {
+      font-size: 14px;
+    }
+
+}
+footer{
+    background: #393E46;
+    font-size: 100%;
+    color: #76EAD7;
+}
+    
+
