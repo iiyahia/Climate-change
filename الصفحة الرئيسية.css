@@ -103,11 +103,15 @@ h2{
         font-size:2;
         img{
             width: 100%;height: auto;
+            
            
         }
     
     }
-    
+ label.logo{
+font-size: small;
+}    
+
     }
     @media  screen and (max-width:800px) {
 
@@ -115,10 +119,13 @@ h2{
             font-size:3;
             img{
                 width: 80%;height: auto; 
-                border-radius: 2%;
+              
             }
         
         }
+        label.logo{
+            font-size: small;
+            }    
         
         }
         @media  screen and (max-width:1200px) {
@@ -131,6 +138,9 @@ h2{
                 }
             
             }
+            label.logo{
+                font-size: small;
+                }    
             
             }
             
