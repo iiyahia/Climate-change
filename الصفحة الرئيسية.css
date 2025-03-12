@@ -108,9 +108,10 @@ h2{
         }
     
     }
- label.logo{
-font-size: small;
-}    
+    nav.label.logo{
+        font: size 2px;;
+        text-align: left;
+        }   
 
     }
     @media  screen and (max-width:800px) {
@@ -123,9 +124,10 @@ font-size: small;
             }
         
         }
-        label.logo{
-            font-size: small;
-            }    
+        nav.label.logo{
+            font: size 2px;;
+            text-align: left;
+            }     
         
         }
         @media  screen and (max-width:1200px) {
@@ -140,7 +142,7 @@ font-size: small;
             }
              nav.label.logo{
                 font: size 2px;;
-                text-align: center;
+                text-align: left;
                 }    
             
             }
