@@ -78,7 +78,7 @@ a:hover{
 }
 
 img{
-   width:50%;
+   width:60%;
    height:400%;
    float: center;
 }
@@ -124,7 +124,7 @@ h2{
             body{
                 font-size:4;
                 img{
-                    width: 100%;height: auto;
+                    width: 80%;height: auto;
                 }
             
             }
