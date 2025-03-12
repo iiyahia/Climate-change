@@ -96,27 +96,7 @@ h2{
     padding-right: 2%;
 }
 
-@media (max-width: 768px) {
-    .nav ul {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .nav ul li a {
-      font-size: 16px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .nav ul {
-      padding: 10px;
-    }
-  
-    .nav ul li a {
-      font-size: 14px;
-    }
 
-}
 @media  screen and (max-width:400px) {
 
     body{
