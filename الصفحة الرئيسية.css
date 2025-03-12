@@ -124,7 +124,9 @@ h2{
             body{
                 font-size:4;
                 img{
-                    width: 80%;height: auto;
+                    width: 100%;height: auto;
+                    padding: 2px;
+                    margin: 2px;
                 }
             
             }
