@@ -128,11 +128,14 @@ h2{
         
         }
         nav.label.logo{
-            font: size 2px;;
+            font-size:  2px;;
             text-align: left;
+
+            
             }
             nav .ul .li{
                 font: size 2px;;
+                display:inline-block;
             }      
         
         }
