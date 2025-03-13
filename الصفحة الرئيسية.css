@@ -28,7 +28,7 @@ nav{
     color:#76EAD7;
     font-size:25px;
     line-height:50px;
-    align-items: left;
+    align-items: lef;
     font-weight: bold;
 }
 nav ul
@@ -86,12 +86,7 @@ h2{
 
 
 @media  screen and (max-width:400px) {
-.container{
 
-    flex-direction:column ;
-    align-items: center;
-
-}
 
 .nav-links{
     flex-direction: column
@@ -110,15 +105,10 @@ h2{
     label.logo{
         font: size 2px;;
         text-align: left;
+        display: none;
         }  
-        nav .ul .li{
-            font: size 2px;;
-            
-        } 
-        nav.label.logo{
-            font: size 2px;;
-            text-align: left;
-            } 
+     
+       
             nav .ul .li{
                 font: size 2px;
                 display:inline-block;
@@ -166,7 +156,7 @@ h2{
         label.logo{
             font-size:  2px;;
             text-align: left;
-
+            display: none;
             
             }
             nav .ul .li{
