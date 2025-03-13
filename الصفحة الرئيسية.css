@@ -115,10 +115,46 @@ h2{
             font: size 2px;;
             
         } 
+        nav.label.logo{
+            font: size 2px;;
+            text-align: left;
+            } 
+            nav .ul .li{
+                font: size 2px;
+                display:inline-block;
+            }    
+        
+        }
+        .container{
+            display: flex;
+            justify-self: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
 
-    }
+    
     @media  screen and (max-width:800px) {
 
+        nav.label.logo{
+            font: size 2px;;
+            text-align: left;
+            } 
+            nav .ul .li{
+                font: size 2px;
+                display:inline-block;
+            }    
+        
+        }
+        .container{
+            display: flex;
+            justify-self: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
         body{
             font-size:3;
             img{
@@ -138,7 +174,7 @@ h2{
                 
             }      
         
-        }
+       
         @media  screen and (max-width:1200px) {
 
             body{
