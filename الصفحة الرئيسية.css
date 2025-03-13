@@ -63,7 +63,9 @@ a:hover{
    
 }
 
-
+#check{
+    display: none;
+}
 
 img{
    width:60%;
