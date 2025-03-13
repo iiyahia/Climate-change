@@ -1,4 +1,4 @@
-html {text-align:center;
+html {
     margin: 0%;
     padding: 0%;
     width: auto;
@@ -102,7 +102,7 @@ h2{
         }
     
     }
-    nav.label.logo{
+   label.logo{
         font: size 2px;;
         text-align: left;
         display: none;
@@ -153,7 +153,7 @@ h2{
             }
         
         }
-       nav.label.logo{
+       label.logo{
             font-size:  2px;;
             text-align: left;
             display: none;
