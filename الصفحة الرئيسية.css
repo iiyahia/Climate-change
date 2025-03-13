@@ -28,7 +28,7 @@ nav{
     color:#76EAD7;
     font-size:25px;
     line-height:50px;
-    
+    align-items: left;
     font-weight: bold;
 }
 nav ul
@@ -107,7 +107,7 @@ h2{
         }
     
     }
-    nav.label.logo{
+    label.logo{
         font: size 2px;;
         text-align: left;
         }  
@@ -163,7 +163,7 @@ h2{
             }
         
         }
-        nav.label.logo{
+        label.logo{
             font-size:  2px;;
             text-align: left;
 
@@ -185,7 +185,7 @@ h2{
                 }
             
             }
-             nav.label.logo{
+    label.logo{
                 font: size 2px;;
                 text-align: left;
                 } 
