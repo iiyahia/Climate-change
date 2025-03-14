@@ -1,105 +1,165 @@
+html {text-align:center;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
 
-    
+    font-style: normal;
+    font-size: 150%;
+ 
+   background-color: #EEEEEE;
+ 
+}
 
-/* Reset */
-* {
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0%;
+  
 }
+nav{
+    background:#393E46;
+    height: 75px;
+    width: 100%;
+    transition: 1.5
+    ease
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    padding: 0 20px;
 }
-/* Navbar */
-.navbar {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.logo {
-    font-size: 1.8rem;
+ label.logo{
+    color:#76EAD7;
+    font-size: 35px;
+    line-height: 75px;
+    padding: 0 50px;
     font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin-right: 25px;
+
+}
+nav ul li 
+{
+list-style: none;
+display: inline-block;
+padding: 10px;
+}
+nav ul li a 
+{
+    color:#76EAD7;
+    font-size: 19px;
+    padding: 9px 1px;
     text-decoration: none;
-    color: white;
+    letter-spacing: 1px;
 }
 
-/* Nav Links */
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+body{
+    font-family: serif;
+    
 }
 
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    padding: 8px 12px;
-    transition: background 0.3s, transform 0.3s;
+a:hover{
+    background: #000000;
+    transition: 1s;
+    animation: backwards;
 }
-
-.nav-links li a:hover {
-    background-color: #555;
-    border-radius: 4px;
-    transform: scale(1.1);
-}
-
-/* Hamburger Menu */
-.menu-toggle {
-    display: none;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: white;
+.checkbtn
+{
+    font-size: 30px;
+    color:#fff;
+    float: right;
+    line-height: 75px;
+    margin-right: 40px;
     cursor: pointer;
+    display: none;
+    transition: 0.5;
+
+}
+#check{
+    display: none;
 }
 
-/* Responsive Navbar */
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-links {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.5s ease-in-out;
-        z-index: 999;
-    }
-
-    .nav-links.active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .nav-links li a {
-        font-size: 1.2rem;
-        padding: 12px;
-        text-align:center;}
+img{
+   width:60%;
+   height:400%;
+   float: center;
 }
+h1{
+   font-size: 170%; 
+   margin: 1%;
+   color:rgb(20, 20, 105);
+}
+p{
+    margin: 1%;
+}
+
+h2{
+    text-align:right;
+    padding-right: 2%;
+}
+
+
+@media  screen and (max-width:400px) {
+
+    body{
+        font-size:2;
+        img{
+            width: 100%;height: auto;
+            
+           
+        }
+    
+    }
+    nav.label.logo{
+        font: size 2px;;
+        text-align: left;
+        }  
+        nav .ul .li{
+            font: size 2px;;
+        } 
+
+    }
+    @media  screen and (max-width:800px) {
+
+        body{
+            font-size:3;
+            img{
+                width: 80%;height: auto; 
+              
+            }
+        
+        }
+        nav.label.logo{
+            font-size:  2px;;
+            text-align: left;
+
+            
+            }
+            nav .ul .li{
+                font: size 2px;;
+                
+            }      
+        
+        }
+        @media  screen and (max-width:1200px) {
+
+            body{
+                font-size:4;
+                img{
+                    width:70%;height: auto;
+                   
+                }
+            
+            }
+             nav.label.logo{
+                font: size 2px;;
+                text-align: left;
+                } 
+                nav .ul .li{
+                    font: size 2px;
+                    display:inline-block;
+                }    
+            
+            }
             
 
 footer{
