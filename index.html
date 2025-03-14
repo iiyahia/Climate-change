@@ -17,13 +17,13 @@
             </button>
 
         <ul class="nav-links">
-            
                    <li><a  href="made by.html"> Made by</a></li>
             <li><a  href="الطاقة المتجددة.html"  >الطاقة المتجددة</a></li>
      
             <li><a  href="اثار التغير المناخي.html"> اثار التغير المناخي</a></li>
             <li><a  href="اسباب التغير المناخي.html"> اسباب التغير المناخي</a></li>
             <li><a  href="index.html.html"  class="active">الصفحة الئيسية</a></li>
+
            
             
         </ul>
@@ -154,9 +154,16 @@
     
     document.addEventListener('DOMContentLoaded'), function () {     };
     
+    document.addEventListener('DOMContentLoaded', function () {
+    // التأكد من بدء الصفحة من الأعلى سواء كمبيوتر أو موبايل
+    window.scrollTo(0, 0);
+});
     
-    
-    
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100); // تأخير بسيط لضمان تحميل الصفحة
+});
     
     
     

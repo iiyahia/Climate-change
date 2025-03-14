@@ -71,7 +71,7 @@ body {
 }
 
 /* Responsive Navbar */
-@media (max-width: 768px) {
+@media (max-width: 790px) {
     .menu-toggle {
         display: block;
     }
